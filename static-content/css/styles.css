@@ -1,6 +1,6 @@
 body {
     background: #1a2d33;
-    color:#ffffff;
+    color:#000000;
     font-family: 'Arial';
 }
 
@@ -10,11 +10,12 @@ body {
 }
 
 header {
-    background: #c46500;
+    background: #f1f1f1;
 }
 
 header h1 {
     padding: 10px 0;
+    font-size: 60px;
 }
 
 header::after {
@@ -39,7 +40,13 @@ nav li {
 }
 
 nav a {
-    color: rgb(216, 216, 216);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    background-color: rgb(241, 213, 53);
 }
