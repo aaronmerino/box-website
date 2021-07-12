@@ -1,7 +1,7 @@
 body {
     background: #1a2d33;
-    color:#000000;
     font-family: 'Arial';
+    color: #f1f1f1;
     font-weight: 600;
 }
 
@@ -12,6 +12,8 @@ body {
 
 header {
     background: #f1f1f1;
+    margin: 0 0;
+    color:#000000;
 }
 
 header h1 {
@@ -62,4 +64,22 @@ nav a::after {
 
 nav a:hover {
     background-color: rgb(241, 213, 53);
+}
+
+p {
+    width: 50%;
+}
+
+p::before {
+    content: '>';
+}
+
+div.container h1:first-child::before {
+    content: '/ ';
+    font-size: 70px;
+}
+
+div.container h1:first-child::after {
+    content: ' /';
+    font-size: 70px;
 }
