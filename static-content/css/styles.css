@@ -1,5 +1,5 @@
 body {
-    background: #1a2d33;
+    background: #7ca8b6;
     font-family: 'Arial';
     color: #f1f1f1;
     font-weight: 600;
@@ -85,7 +85,7 @@ div.container h1:first-child::after {
 }
 
 .main-article {
-    margin-top: 10px;
+    margin-top: 1px;
     padding: .3rem;
     background-color: #eee;
     color: black;
