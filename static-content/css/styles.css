@@ -16,11 +16,6 @@ header {
     color:#000000;
 }
 
-header h1 {
-    padding: 10px 0;
-    font-size: 60px;
-}
-
 b.dash-aesthetic {
     font-size: 70px;
 }
@@ -74,6 +69,11 @@ p::before {
     content: '>';
 }
 
+header h1 {
+    padding: 10px 0;
+    font-size: 60px;
+}
+
 div.container h1:first-child::before {
     content: '/ ';
     font-size: 70px;
@@ -82,4 +82,23 @@ div.container h1:first-child::before {
 div.container h1:first-child::after {
     content: ' /';
     font-size: 70px;
+}
+
+.main-article {
+    margin-top: 10px;
+    padding: .3rem;
+    background-color: #eee;
+    color: black;
+}
+
+.main-article > h1, .sub-article {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.sub-article > h2,
+.sub-article > p {
+    margin: .2rem;
+    font-size: 1rem;
 }
