@@ -91,18 +91,18 @@ div.container h1:first-child::after {
     color: black;
 }
 
-.main-article > h1, .sub-article {
+.main-article > h1, .sub-section {
     margin: .5rem;
     padding: .3rem;
     font-size: 1.2rem;
 }
 
-.sub-article {
+.sub-section {
     background: white;
 }
 
-.sub-article > h2,
-.sub-article > p {
+.sub-section > h2,
+.sub-section > p {
     margin: .2rem;
     font-size: 1rem;
 }
