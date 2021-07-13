@@ -97,6 +97,10 @@ div.container h1:first-child::after {
     font-size: 1.2rem;
 }
 
+.sub-article {
+    background: white;
+}
+
 .sub-article > h2,
 .sub-article > p {
     margin: .2rem;
