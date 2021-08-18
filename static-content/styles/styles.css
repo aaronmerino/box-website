@@ -45,6 +45,10 @@ main {
     gap: 10px;
 }
 
+p {
+    word-wrap: break-word;
+}
+
 .sub-section {
     background: rgb(41, 41, 41);
     border-left: 5px solid white;
