@@ -6,5 +6,5 @@ const port = 3000;
 app.use('/static', express.static('static-content'));
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}!`)
+  console.log(`listening on port ${port}!`)
 });
