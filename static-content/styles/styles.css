@@ -59,9 +59,11 @@ p {
 }
 
 img, video {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 60%;
+    max-height: 60%;
     padding-top: 10px;
+    display: block;
+    margin-left: 10px;
 }
 
 a {
@@ -86,9 +88,10 @@ a:hover {
 }
 
 .sub-section {
-    background: rgb(20, 20, 20);
+    background: rgb(164, 164, 164);
     border-left: 5px solid rgb(1, 86, 112);
     color: white;
+    margin-right: 2em;
 }
 
 .sub-section > h3, .sub-section > p {
