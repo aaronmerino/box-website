@@ -5,9 +5,9 @@ window.addEventListener("load", function () {
       <h1></b>box</h1>
       <nav>
         <ul>
-          <li><a href="/static/index.html">HOME</a></li>
-          <li><a href="/static/drawings.html">DRAWINGS</a></li>
-          <li><a href="/static/contacts.html">CONTACTS</a></li>
+          <li><a href="/index.html">HOME</a></li>
+          <li><a href="/drawings.html">DRAWINGS</a></li>
+          <li><a href="/contacts.html">CONTACTS</a></li>
         </ul>
       </nav>
     </div>
