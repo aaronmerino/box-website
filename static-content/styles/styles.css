@@ -53,6 +53,7 @@ h2, h3, .sub-section {
 }
 
 .gallery figure {
+    background: rgb(255, 255, 255);
     flex: 1 1 auto;
 }
 
@@ -70,6 +71,7 @@ p {
 }
 
 img, video {
+    border-top: 3px solid rgb(255, 145, 0);
     max-width: 80%;
     max-height: 80%;
     padding-top: 10px;
