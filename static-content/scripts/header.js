@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
       <nav>
         <ul>
           <li><a href="/index.html">HOME</a></li>
-          <li><a href="/arts.html">ART</a></li>
+          <li><a href="/sketches.html"> SCRIBBLES </a></li>
           <li><a href="/contacts.html">CONTACTS</a></li>
         </ul>
       </nav>
